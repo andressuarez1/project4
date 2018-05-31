@@ -1,5 +1,5 @@
 body {
-	background: url("p4images/ps4background.jpg");
+	background: url("p4images/newps4background.jpg");
 }
 ul {
     list-style-type: none;
@@ -71,6 +71,60 @@ li a:hover {
  grid-row-start: 1;
  grid-row-end: span 3;
 }
+.grid-colspan1-g{
+ grid-column-start: 5;
+ grid-column-end: span 2;
+ grid-row-start: 1;
+ grid-row-end: span 1;
+}
+.grid-colspan1-h{
+ grid-column-start: 4;
+ grid-column-end: span 2;
+ grid-row-start: 2;
+ grid-row-end: span 2;
+}
+.grid-colspan1-i{
+ grid-column-start: 4;
+ grid-column-end: span 2;
+ grid-row-start: 4;
+ grid-row-end: span 2;
+}
+.grid-colspan1-j{
+ grid-column-start: 4;
+ grid-column-end: span 2;
+ grid-row-start: 6;
+ grid-row-end: span 2;
+}
+.grid-colspan1-k{
+ grid-column-start: 4;
+ grid-column-end: span 2;
+ grid-row-start: 8;
+ grid-row-end: span 1;
+}
+.grid-colspan1-l{
+ grid-column-start: 6;
+ grid-column-end: span 2;
+ grid-row-start: 2;
+ grid-row-end: span 2;
+}
+.grid-colspan1-m{
+ grid-column-start: 6;
+ grid-column-end: span 2;
+ grid-row-start: 4;
+ grid-row-end: span 2;
+}
+.grid-colspan1-n{
+ grid-column-start: 6;
+ grid-column-end: span 2;
+ grid-row-start: 6;
+ grid-row-end: span 2;
+}
+.grid-colspan1-o{
+ grid-column-start: 6;
+ grid-column-end: span 2;
+ grid-row-start: 8;
+ grid-row-end: span 2;
+}
 .grid-colspan2-a{
  grid-column-start: 2;
  grid-column-end: span 2;
@@ -101,9 +155,39 @@ li a:hover {
  grid-row-start: 1;
  grid-row-end: span 2;
 }
-.grid-colspan2-g{
- grid-column-start: 5;
+.grid-colspan2-f{
+ grid-column-start: 4;
  grid-column-end: span 2;
- grid-row-start: 8;
+ grid-row-start: 10;
+ grid-row-end: span 2;
+}
+.grid-colspan2-g{
+ grid-column-start: 6;
+ grid-column-end: span 2;
+ grid-row-start: 10;
+ grid-row-end: span 2;
+}
+.grid-colspan2-h{
+ grid-column-start: 4;
+ grid-column-end: span 2;
+ grid-row-start: 12;
+ grid-row-end: span 2;
+}
+.grid-colspan2-i{
+ grid-column-start: 6;
+ grid-column-end: span 2;
+ grid-row-start: 12;
+ grid-row-end: span 2;
+}
+.grid-colspan2-j{
+ grid-column-start: 3;
+ grid-column-end: span 2;
+ grid-row-start: 4;
+ grid-row-end: span 2;
+}
+.grid-colspan2-k{
+ grid-column-start: 7;
+ grid-column-end: span 2;
+ grid-row-start: 4;
  grid-row-end: span 2;
 }

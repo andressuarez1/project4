@@ -33,7 +33,7 @@ li a:hover {
   background-color: opacity: 0.5;
   color: white;
   border-radius: 5px;
-  border: 2px white solid;
+  font-family: "arial black";
 }
 .grid-colspan1-a{
  grid-column-start: 2;
@@ -88,18 +88,24 @@ li a:hover {
  grid-column-end: span 2;
  grid-row-start: 4;
  grid-row-end: span 2;
+ color: black;
+ background-color: white;
 }
 .grid-colspan1-j{
  grid-column-start: 4;
  grid-column-end: span 2;
  grid-row-start: 6;
  grid-row-end: span 2;
+ color: black;
+ background-color: white;
 }
 .grid-colspan1-k{
  grid-column-start: 4;
  grid-column-end: span 2;
  grid-row-start: 8;
  grid-row-end: span 1;
+ color: black;
+ background-color: white;
 }
 .grid-colspan1-l{
  grid-column-start: 6;
@@ -112,18 +118,24 @@ li a:hover {
  grid-column-end: span 2;
  grid-row-start: 4;
  grid-row-end: span 2;
+ color: white;
+ background-color: black;
 }
 .grid-colspan1-n{
  grid-column-start: 6;
  grid-column-end: span 2;
  grid-row-start: 6;
  grid-row-end: span 2;
+ color: white;
+ background-color: black;
 }
 .grid-colspan1-o{
  grid-column-start: 6;
  grid-column-end: span 2;
  grid-row-start: 8;
  grid-row-end: span 2;
+ color: white;
+ background-color: black;
 }
 .grid-colspan2-a{
  grid-column-start: 2;
@@ -170,13 +182,13 @@ li a:hover {
 .grid-colspan2-h{
  grid-column-start: 4;
  grid-column-end: span 2;
- grid-row-start: 12;
+ grid-row-start: 10;
  grid-row-end: span 2;
 }
 .grid-colspan2-i{
  grid-column-start: 6;
  grid-column-end: span 2;
- grid-row-start: 12;
+ grid-row-start: 10;
  grid-row-end: span 2;
 }
 .grid-colspan2-j{
